@@ -1,0 +1,12 @@
+jupyter
+llama-cpp-python
+llama-index-readers-file
+llama-index-llms-openai
+llama-index-embeddings-openai
+llama-index-finetuning
+numpy
+pandas
+matplotlib
+seaborn
+openai
+python-dotenv
