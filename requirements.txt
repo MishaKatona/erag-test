@@ -6,7 +6,6 @@ llama-index-embeddings-openai
 llama-index-finetuning
 numpy
 pandas
-matplotlib
-seaborn
 openai
 python-dotenv
+sentence-transformers
