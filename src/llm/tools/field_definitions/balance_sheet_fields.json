@@ -1,0 +1,74 @@
+{
+    "Years": {
+        "description":
+            "Years of the values in each column formatted as YYYY"
+    },
+    "Tangible_Assets": {
+        "description":
+            "Physical assets like fixtures, machinery, vehicles. AKA Fixed Assets, Property and Equipment"
+    },
+    "Intangible_Assets": {
+        "description":
+            "Non-physical assets like software, IP, crypto. AKA Non-physical Assets, Intellectual Property"
+    },
+    "Investments": {
+        "description":
+            "Liquid investments like stocks, securities. AKA Marketable Securities, Financial Investments"
+    },
+    "Long_Term_Investments": {
+        "description":
+            "Non-liquid investments not easily converted to cash. AKA Non-current Investments, Fixed Investments"
+    },
+    "Debtors": {
+        "description":
+            "Receivables due within one year. AKA Accounts Receivable, Trade Receivables"
+    },
+    "Cash_At_Bank": {
+        "description":
+            "Cash and cash equivalents. AKA Bank Balance, Cash Reserves"
+    },
+    "Current_Assets": {
+        "description":
+            "Total current assets. AKA Working Capital, Net Working Capital"
+    },
+    "Creditors_Due_Within_One_Year": {
+        "description":
+            "Liabilities payable within one year. AKA Current Liabilities, Short-term Payables"
+    },
+    "Creditors_Due_After_One_Year": {
+        "description":
+            "Liabilities payable after one year. AKA Long-term Liabilities, Non-current Liabilities"
+    },
+    "Other_Provisions": {
+        "description":
+            "Other financial provisions. AKA Miscellaneous Provisions, Contingency Funds"
+    },
+    "Net_Current_Assets": {
+        "description":
+            "Current assets minus current liabilities. AKA (Net) Working Capital, Current Capital"
+    },
+    "Net_Assets": {
+        "description":
+            "Total assets minus total liabilities. AKA Net Worth, Equity"
+    },
+    "Share_Capital": {
+        "description":
+            "Capital from share issuance. AKA Issued Capital, Equity Capital"
+    },
+    "Revaluation_Reserve": {
+        "description":
+            "Reserve for asset revaluation. AKA Asset Revaluation Reserve, Revaluation Surplus"
+    },
+    "Capital_Redemption_Reserve": {
+        "description":
+            "Reserve for share redemption or buyback. AKA Redemption Reserve, Share Buyback Reserve"
+    },
+    "Retained_Earnings": {
+        "description":
+            "Accumulated retained earnings. AKA Profit and Loss Reserve, Retained Profits"
+    },
+    "Total_Equity": {
+        "description":
+            "Sum of all equity components. AKA Shareholders' Equity, Owners' Equity"
+    }
+}

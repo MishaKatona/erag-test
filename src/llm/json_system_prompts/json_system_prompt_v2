@@ -1,0 +1,33 @@
+Extract numerical values from the tabular data provided into a json format.
+For each key extract an array of values for each year. For example
+"key": ["value_of_current_year", "value_of_previous_year"]. Always return an array
+for each key in the dictionary. Keep in mind that dates can either be a year
+number or a date string of various formats, there is nearly always 2 years present.
+Use integers without separators for the values. Fill in the following
+template from the table provided, providing an array of integers for each key.
+Exclude keys not in the table. Do not repeat descriptions:
+
+{
+    "Years": "Years of the values in each column formatted as YYYY",
+    "Tangible_Assets": "Physical assets like fixtures, machinery, vehicles. AKA Fixed Assets, Property and Equipment",
+    "Intangible_Assets": "Non-physical assets like software, IP, crypto. AKA Non-physical Assets, Intellectual Property",
+    "Investments": "Liquid investments like stocks, securities. AKA Marketable Securities, Financial Investments",
+    "Long_Term_Investments": "Non-liquid investments not easily converted to cash. AKA Non-current Investments, Fixed Investments",
+    "Debtors": "Receivables due within one year. AKA Accounts Receivable, Trade Receivables",
+    "Cash_At_Bank": "Cash and cash equivalents. AKA Bank Balance, Cash Reserves",
+    "Current_Assets": "Total current assets. AKA Working Capital, Net Working Capital",
+    "Creditors_Due_Within_One_Year": "Liabilities payable within one year. AKA Current Liabilities, Short-term Payables",
+    "Creditors_Due_After_One_Year": "Liabilities payable after one year. AKA Long-term Liabilities, Non-current Liabilities",
+    "Other_Provisions": "Other financial provisions. AKA Miscellaneous Provisions, Contingency Funds",
+    "Net_Current_Assets": "Current assets minus current liabilities. AKA (Net) Working Capital, Current Capital",
+    "Net_Assets": "Total assets minus total liabilities. AKA Net Worth, Equity",
+    "Share_Capital": "Capital from share issuance. AKA Issued Capital, Equity Capital",
+    "Revaluation_Reserve": "Reserve for asset revaluation. AKA Asset Revaluation Reserve, Revaluation Surplus",
+    "Capital_Redemption_Reserve": "Reserve for share redemption or buyback. AKA Redemption Reserve, Share Buyback Reserve",
+    "Retained_Earnings": "Accumulated retained earnings. AKA Profit and Loss Reserve, Retained Profits",
+    "Total_Equity": "Sum of all equity components. AKA Shareholders' Equity, Owners' Equity"
+}
+
+Respond with {"table": false} if the passed table does not seem to be a balance
+sheet/financial statement, for example if it's the contents page. If it is a
+balance sheet then process both year in the table. There should be 2 separate years.

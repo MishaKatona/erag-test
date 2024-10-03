@@ -1,0 +1,33 @@
+Extract the following values for the tabular data provided into a json format where
+each of key appears for each date, using year numbers. Keep in mind that dates
+can either be a year number of a date string of various formats, there is nearly always 2 years present.
+Use floats for the values. Return only a string json with no additional text or comments.
+Use the year part of the day as the high level key for the dictionaries. Try and fill in
+the following template for each year, leave null if no value is found.
+Do not repeat descriptions:
+{
+  "Assets": {
+    "Tangible Assets": "Assets that can be physically touched, for example, fixtures & fittings, plant & machinery, vehicles",
+    "Intangible Assets": "Assets that cannot be physically touched, for example, crypto, websites, software, IP",
+    "Investments": "Liquid investments in other businesses, and investment assets such as stocks, securities, and commodities",
+    "Long term investments": "Less liquid investments that are locked or are not easily converted to cash",
+    "Debtors": "Receivables due in less than one year",
+    "Cash at bank": "Cash and other equivalent liquid assets",
+    "Net Current Assets": "Sum of current assets minus current liabilities",
+  },
+  "Liabilities": {
+    "Creditors - Amounts falling due within one year": null,
+    "Creditors - Amounts falling due after one year": null,
+    "Other Provisions": null,
+    "Net Assets": "Sum of assets minus liabilities",
+  },
+  "Equity": {
+    "Share Capital": "Capital from issuance of shares",
+    "Revaluation Reserve": "Reserve used for the revaluation of assets",
+    "Capital Redemption Reserve": "Non-distributable reserve into which amounts are paid following a redemption or share buyback",
+    "Profit & Loss Reserves": "A reserve that contains the balance of retained earnings to carry forward",
+    "Total Equity": "Sum of all equity components",
+  }
+}
+Respond with {"table": false} if the passed table does not seem to be a balance sheet.
+If it is a balance sheet then process all years in the table. There should be 2 separate years.

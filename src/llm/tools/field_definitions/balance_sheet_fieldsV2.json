@@ -1,0 +1,20 @@
+{
+    "Years": "Years of the values in each column formatted as YYYY",
+    "Tangible_Assets": "Physical assets like fixtures, machinery, vehicles. AKA Fixed Assets, Property and Equipment",
+    "Intangible_Assets": "Non-physical assets like software, IP, crypto. AKA Non-physical Assets, Intellectual Property",
+    "Investments": "Liquid investments like stocks, securities. AKA Marketable Securities, Financial Investments",
+    "Long_Term_Investments": "Non-liquid investments not easily converted to cash. AKA Non-current Investments, Fixed Investments",
+    "Debtors": "Receivables due within one year. AKA Accounts Receivable, Trade Receivables",
+    "Cash_At_Bank": "Cash and cash equivalents. AKA Bank Balance, Cash Reserves",
+    "Current_Assets": "Total current assets. AKA Working Capital, Net Working Capital",
+    "Creditors_Due_Within_One_Year": "Liabilities payable within one year. AKA Current Liabilities, Short-term Payables",
+    "Creditors_Due_After_One_Year": "Liabilities payable after one year. AKA Long-term Liabilities, Non-current Liabilities",
+    "Other_Provisions": "Other financial provisions. AKA Miscellaneous Provisions, Contingency Funds",
+    "Net_Current_Assets": "Current assets minus current liabilities. AKA (Net) Working Capital, Current Capital",
+    "Net_Assets": "Total assets minus total liabilities. AKA Net Worth, Equity",
+    "Share_Capital": "Capital from share issuance. AKA Issued Capital, Equity Capital",
+    "Revaluation_Reserve": "Reserve for asset revaluation. AKA Asset Revaluation Reserve, Revaluation Surplus",
+    "Capital_Redemption_Reserve": "Reserve for share redemption or buyback. AKA Redemption Reserve, Share Buyback Reserve",
+    "Retained_Earnings": "Accumulated retained earnings. AKA Profit and Loss Reserve, Retained Profits",
+    "Total_Equity": "Sum of all equity components. AKA Shareholders' Equity, Owners' Equity"
+}

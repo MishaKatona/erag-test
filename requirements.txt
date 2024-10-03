@@ -1,0 +1,16 @@
+jupyter
+llama-cpp-python
+llama-index-readers-file
+llama-index-llms-openai
+llama-index-embeddings-openai
+llama-index-finetuning
+numpy
+pandas~=2.2.2
+openai~=1.37.0
+python-dotenv~=1.0.1
+sentence-transformers
+pdf2image~=1.17.0
+pytesseract~=0.3.10
+pypdf~=4.3.1
+tesserocr~=2.7.0
+PyPDF2~=3.0.1
